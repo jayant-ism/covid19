@@ -1,5 +1,6 @@
 The below file describes the dependencies and how to fullfill them
 
+
 Install Python
 Being a Python Web framework, Django requires Python. See What Python version can I use with Django? for details. Python includes a lightweight database called SQLite so you won’t need to set up a database just yet.
 
@@ -22,6 +23,20 @@ After you’ve created and activated a virtual environment, enter the command:
 
 
  python -m pip install Django
+
+
+For installing Bootstrap :-
+Several quick start options are available:
+
+Download the latest release.
+
+You can dowenloade the reposetories via vaitous methods.
+
+Clone the repo: git clone https://github.com/twbs/bootstrap.git
+Install with npm: npm install bootstrap
+Install with yarn: yarn add bootstrap@4.4.1
+Install with Composer: composer require twbs/bootstrap:4.4.1
+Install with NuGet: CSS: Install-Package bootstrap Sass: Install-Package bootstrap.sass
 
 
 
