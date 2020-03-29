@@ -1,1 +1,27 @@
 The below file describes the dependencies and how to fullfill them
+
+Install Python
+Being a Python Web framework, Django requires Python. See What Python version can I use with Django? for details. Python includes a lightweight database called SQLite so you won’t need to set up a database just yet.
+
+Get the latest version of Python at https://www.python.org/downloads/ or with your operating system’s package manager.
+
+
+Set up a database
+This step is only necessary if you’d like to work with a “large” database engine like PostgreSQL, MariaDB, MySQL, or Oracle. To install such a database, consult the database installation information.
+
+
+
+Installing an official release with pip
+This is the recommended way to install Django.
+
+Install pip. The easiest is to use the standalone pip installer. If your distribution already has pip installed, you might need to update it if it’s outdated. If it’s outdated, you’ll know because installation won’t work.
+
+Take a look at virtualenv and virtualenvwrapper. These tools provide isolated Python environments, which are more practical than installing packages systemwide. They also allow installing packages without administrator privileges. The contributing tutorial walks through how to create a virtualenv.
+
+After you’ve created and activated a virtual environment, enter the command:
+
+
+ python -m pip install Django
+
+
+
